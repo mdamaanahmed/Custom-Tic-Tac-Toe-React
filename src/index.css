@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main > h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.main .grid-input > input {
+  padding: 5px 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.main .grid-input > button {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.main .grid-input > .error {
+  text-align: center;
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.main > .turn {
+  text-align: center;
+}
+
+.main > .win {
+  text-align: center;
+  color: green;
+}
+
+.tic-tac-toe {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  border: none;
+}
+
+.tic-tac-toe > .col {
+  flex: 1 1 50px;
+  height: 50px;
+  background-color: rgb(237, 237, 237);
+  border: 1px solid;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main > .play-again {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
